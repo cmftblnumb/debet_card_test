@@ -1,0 +1,11 @@
+image: Visual Studio 2022
+
+install:
+  - java -jar ./artifacts/app-order.jar &
+  - choco install googlechrome
+  - choco install chromedriver
+
+build: off
+
+test_script:
+  - gradlew test
