@@ -16,7 +16,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class debetCardTest {
+public class DebetCardTest {
     private WebDriver driver;
 
     @BeforeAll
